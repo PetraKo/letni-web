@@ -1,0 +1,20 @@
+@import "../../node_modules/normalize.css/normalize";
+
+//Abstracts
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// //původně browser nastavuje 16px velikost písma
+// //teď je 1rem = 10px
+// html {
+//     font-size: 62.5%;
+// }
+
+// //v dalším kroku změním velikost písma zase na 16px, ale 1rem se pořád rovná 10px
+
+// body {
+//     font-size: 1.6rem;
+// }
+
+@import "base/base";
+@import "base/typo";
